@@ -1284,6 +1284,33 @@ body, html {
     font-size: 16px;
 }
 
+/* ===== Certification card link wrapper ===== */
+.cert-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.cert-link:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* "Verify on Credly" link cue inside cert meta */
+.cert-verify {
+    color: #754ef9 !important;
+    font-weight: 700 !important;
+    transition: color 0.2s;
+}
+
+.cert-link:hover .cert-verify {
+    color: #5e3dd4 !important;
+}
+
+.cert-verify i {
+    font-size: 11px;
+}
+
 
 /* Mobile responsiveness for timeline */
 @media (max-width: 600px) {
